@@ -17,6 +17,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/ECommerce-Website/" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/signup" element={<Signup />} />
